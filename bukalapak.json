@@ -1,0 +1,95 @@
+{
+	"JamTangan" :
+	[
+		{
+			"Diskon" : "10%",
+			"Image" : "assets/img/1.webp",
+			"Judul" : "Jam Tangan SKMEI 1389",
+			"Harga" : "Rp295.000",
+			"Rating" : "assets/img/r1.png"
+		},
+
+		{
+			"Diskon" : "10%",
+			"Image" : "assets/img/2.webp",
+			"Judul" : "Jam Tangan SKMEI AD1131",
+			"Harga" : "Rp295.000",
+			"Rating" : "assets/img/r2.png"
+		},
+
+		{
+			"Diskon" : "20%",
+			"Image" : "assets/img/3.webp",
+			"Judul" : "Jam Tangan SKMEI AD1081",
+			"Harga" : "Rp170.000",
+			"Rating" : "assets/img/r3.png"
+		},
+
+		{
+			"Diskon" : "30%",
+			"Image" : "assets/img/4.webp",
+			"Judul" : "Jam Tangan SKMEI 1334",
+			"Harga" : "Rp120.000",
+			"Rating" : "assets/img/r4.png"
+		},
+
+		{
+			"Diskon" : "15%",
+			"Image" : "assets/img/5.webp",
+			"Judul" : "Jam Tangan SKMEI 1398",
+			"Harga" : "Rp162.000",
+			"Rating" : "assets/img/r5.png"
+		},
+
+		{
+			"Diskon" : "25%",
+			"Image" : "assets/img/6.webp",
+			"Judul" : "Jam Tangan SKMEI DG6918",
+			"Harga" : "Rp119.000",
+			"Rating" : "assets/img/r6.png"
+		},
+		{
+			"Diskon" : "40%",
+			"Image" : "assets/img/7.webp",
+			"Judul" : "Jam Tangan Pria SKMEI 1270",
+			"Harga" : "Rp115.200",
+			"Rating" : "assets/img/r6.png"
+		},
+		{
+			"Diskon" : "40%",
+			"Image" : "assets/img/8.webp",
+			"Judul" : "Jam Tangan SKMEI Digital LED",
+			"Harga" : "Rp119.000",
+			"Rating" : "assets/img/r5.png"
+		},
+		{
+			"Diskon" : "20%",
+			"Image" : "assets/img/9.webp",
+			"Judul" : "Jam Tangan SKMEI waterproof ",
+			"Harga" : "Rp195.000",
+			"Rating" : "assets/img/r4.png"
+		},
+		{
+			"Diskon" : "25%",
+			"Image" : "assets/img/10.webp",
+			"Judul" : "Jam Tangan SKMEI Digital Analog",
+			"Harga" : "Rp171.600",
+			"Rating" : "assets/img/r3.png"
+		},
+		{
+			"Diskon" : "30%",
+			"Image" : "assets/img/11.webp",
+			"Judul" : "Jam Tangan Analog SKMEI",
+			"Harga" : "Rp157.600",
+			"Rating" : "assets/img/r2.png"
+		},
+		{
+			"Diskon" : "20%",
+			"Image" : "assets/img/12.webp",
+			"Judul" : "Jam Tangan Anak Original SKMEI",
+			"Harga" : "Rp119.000",
+			"Rating" : "assets/img/r1.png"
+		}
+	]
+}
+	
