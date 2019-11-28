@@ -1,0 +1,29 @@
+body {
+	font: 25px/35px arial, sans-serif;
+	background-color: #eaeaea;
+	color: white;
+	background-image: url("images/black.jpg");
+}
+.container {
+	width: 1000px;
+	margin: auto;
+	background-color:transparent;
+}
+.header {
+	background-color: transparent;
+	text-align: center;
+	color:white;
+	height: 50px;
+}
+.img img {
+	width: 40%;
+}
+.content {
+	padding: 20px;
+}
+.footer{
+	background-color:transparent;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}

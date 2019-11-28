@@ -1,0 +1,41 @@
+body {
+	font: 20px/30px arial, sans-serif;
+	background-color: #eaeaea;
+	color: white;
+	background-image: url("images/black.jpg");
+}
+.container {
+	width: 1000px;
+	margin: auto;
+	background-color:black;
+}
+.header {
+	background-color: transparent;
+	text-align: center;
+	color:white;
+	height: 50px;
+}
+.img img {
+	width: 40%;
+}
+.hero{
+	height: 450px;
+	background-image: url("images/ot12.jpg");
+	background-size: cover;
+	background-position: 0 - 200;
+	border-bottom: 5px solid lightskyblue;
+	border-top: 5px solid lightskyblue;
+}
+.content {
+	padding: 20px;
+}
+.content h3{
+	font-size: 20px;
+	margin-top: 20px;
+}
+.footer{
+	background-color:transparent;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
