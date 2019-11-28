@@ -10,36 +10,36 @@
     <script src="assets/libs/jquery-3.4.1.min.js"></script>
     <script>
       $(document).ready(function(){
-        $.getJSON ('bukalapak.json',
-					function(data) {
-            for (var i = 0; i<data.JamTangan.length;i++){
+      //   $.getJSON ('bukalapak.json',
+			// 		function(data) {
+      //       for (var i = 0; i<data.JamTangan.length;i++){
+      //         $('#list').append("<div class='card' style='width: 13rem;display:inline-block;margin: 10px'>"+
+      //         "<img src='"+data.JamTangan[i].Image+"'class='card-img-top' alt='...'><span class='Diskon'>"+
+      //         data.JamTangan[i].Diskon+"</span><div class='card-body'>"+"<h5 class='card-title'>"+
+      //         data.JamTangan[i].Judul+"</h5>"+"<p class='card-text' style='color:#FFD700'>"+
+      //         data.JamTangan[i].Harga+"</p>"+"<div class='card' style='width: 10rem;height :2rem;display:inline-block'>"+
+      //         "<img src='"+data.JamTangan[i].Rating+"'class='card-img-top' alt='...'><div class='card-body'></div>")
+      //        }
+      //     });
+      // });
+        $.ajax({
+          url : 'bukalapak.json' ,
+          type : 'GET',
+          dataType : 'json',
+            success : function handledata(data){
+
+              var strjson = JSON.stringify(data);
+              for (var i = 0; i<data.JamTangan.length;i++){
               $('#list').append("<div class='card' style='width: 13rem;display:inline-block;margin: 10px'>"+
               "<img src='"+data.JamTangan[i].Image+"'class='card-img-top' alt='...'><span class='Diskon'>"+
               data.JamTangan[i].Diskon+"</span><div class='card-body'>"+"<h5 class='card-title'>"+
               data.JamTangan[i].Judul+"</h5>"+"<p class='card-text' style='color:#FFD700'>"+
               data.JamTangan[i].Harga+"</p>"+"<div class='card' style='width: 10rem;height :2rem;display:inline-block'>"+
               "<img src='"+data.JamTangan[i].Rating+"'class='card-img-top' alt='...'><div class='card-body'></div>")
-             }
+              }
+            }
           });
-      });
-        // $.ajax({
-        //   url : 'https://iralestari61.github.io/bukalapak.json' ,
-        //   type : 'POST',
-        //   dataType : 'json',
-        //     success : function handledata(data){
-
-        //       var strjson = JSON.stringify(data);
-        //       for (var i = 0; i<data.JamTangan.length;i++){
-        //       $('#list').append("<div class='card' style='width: 13rem;display:inline-block;margin: 10px'>"+
-        //       "<img src='"+data.JamTangan[i].Image+"'class='card-img-top' alt='...'><span class='Diskon'>"+
-        //       data.JamTangan[i].Diskon+"</span><div class='card-body'>"+"<h5 class='card-title'>"+
-        //       data.JamTangan[i].Judul+"</h5>"+"<p class='card-text' style='color:#FFD700'>"+
-        //       data.JamTangan[i].Harga+"</p>"+"<div class='card' style='width: 10rem;height :2rem;display:inline-block'>"+
-        //       "<img src='"+data.JamTangan[i].Rating+"'class='card-img-top' alt='...'><div class='card-body'></div>")
-        //       }
-        //     }
-        //   });
-        // });   
+        });   
     </script>
     <!-- <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/carousel/"> -->
 
@@ -121,7 +121,7 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg><img src="assets/img/baner.png">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg><img src="assets/img/banner.jpg">
         <!-- <div class="container">
           <div class="carousel-caption text-left">
             <h1>Example headline.</h1>
